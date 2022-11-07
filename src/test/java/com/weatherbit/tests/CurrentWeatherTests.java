@@ -8,7 +8,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 
-import static com.testapi.weatherbit.Utils.getProperty;
+import static com.testapi.Utils.getProperty;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 

@@ -1,4 +1,4 @@
-package com.testapi.weatherbit;
+package com.testapi;
 
 import java.io.IOException;
 
@@ -13,5 +13,4 @@ private static final String FILE_PROPERTIES = "weatherbit.properties";
         }
         catch (IOException e){throw new RuntimeException("Property file is not found");}
     }
-
 }

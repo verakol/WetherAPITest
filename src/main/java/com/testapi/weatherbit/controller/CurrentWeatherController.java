@@ -8,7 +8,7 @@ import org.apache.http.HttpStatus;
 
 import java.util.List;
 
-import static com.testapi.weatherbit.Utils.getProperty;
+import static com.testapi.Utils.getProperty;
 import static io.restassured.RestAssured.given;
 
 public class CurrentWeatherController {
